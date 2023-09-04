@@ -1,0 +1,191 @@
+*{
+            box-sizing:border-box;
+}
+        
+        body{
+            margin:auto;
+            height:100%;
+            background:#3A3E5E;
+            position: relative;
+            font-family: smallRobotoFont;
+        }
+
+        
+        .container{
+            width: 50%;
+            height: 600px;
+            padding:20px 20px 20px 30px;
+            background:white;
+            border-radius:20px;
+            position: absolute;
+            top: 50%;
+            margin-top: 90px;
+            left: 28%;
+            /*visibility: hidden;*/
+        }
+        
+        .content{
+            display:flex;
+            margin: 0;
+            justify-content: space-between;
+            align-items: center;
+            height: 560px;
+            padding:0;
+        }
+
+        @font-face{
+        	font-family: robotoFont;
+        	src: url('/Users/roopshanti.tupe/Downloads/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Bold.ttf') format('truetype');
+        }
+
+        @font-face{
+            font-family: smallRobotoFont;
+            src: url('/Users/roopshanti.tupe/Downloads/newsletter-sign-up-with-success-message-main/assets/fonts/Roboto-Regular.ttf') format('truetype');
+        }
+
+        .content-submition{
+        	text-align: justify-all;
+            padding: 0 30px 65px 35px;
+        }
+
+        .header{
+        	font-size: 55px;
+        	padding-left: 0;
+        	font-family: robotoFont;
+        }
+
+        .content-submition-list{
+        	padding: 20px 0 20px 0;
+            list-style-type: none;
+            line-height: 30px;
+        }
+
+        li > img{
+            height:20px;
+            width: 20px;
+            
+        }
+
+        li > span {
+            top:-3px; 
+            position:relative; 
+            padding-left: 15px;
+        }
+
+        .form-style > *{
+            display: block;
+            height: 45px;
+            width: 90%;
+            font-size: 15px;
+        }
+
+        .form-style > input{           
+            border: 1px solid #DADADA;
+            border-radius: 5px; 
+            padding: 20px;
+            margin-bottom: 25px;
+            position: relative;
+            top: 10px;
+            /*background-color: none;*/
+
+        }
+
+        ::placeholder {
+            color: #949292;
+            
+        }
+
+        .form-style > button{
+            border-radius: 5px;
+            background-color: #2E2D4B;
+            border: none;
+            color: white;
+            font-family: robotoFont;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-image: linear-gradient(90deg, rgba(180,58,93,1) 11%, rgba(253,130,29,1) 84%, rgba(252,69,69,1) 100%);
+            box-shadow: 49px 11px 98px -2px rgba(255,183,183,0.81);
+        }
+
+        
+        .right-image{
+           background-image:url("/Users/roopshanti.tupe/Downloads/newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg");
+            width:50%;
+            height:99%;
+           /* width: 90%;
+            height: 90%;*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-right: 190px;
+        }
+
+
+        img > .tick{
+            src: "/Users/roopshanti.tupe/Downloads/newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg";
+        }
+
+
+        .thanks{
+            height: 400px;
+            width:25%;
+            padding: 40px 50px 50px 50px;
+            background-color: white;
+            border-radius: 20px;
+            position: absolute;
+            top: 80%;
+            margin-top: 200px;
+            left: 37%;
+        }
+
+        .thanks-content > *{
+            height: 45px;
+            width: 100%;
+            font-size: 13px;
+        }
+
+        .thanks-content > .btn-dismiss{
+            top: 150px;
+            position: relative;
+            border-radius: 5px;
+            background-color: #2E2D4B;
+            border: none;
+            color: white;
+            font-family: robotoFont;
+            cursor: pointer;
+        }
+
+        .tick{
+            height: 50px;
+            width: 50px;
+        }
+
+
+        .thanks-msg > h1{
+            font-size: 40px;
+            padding-left: 0;
+            font-family: robotoFont;
+        }
+
+        .thanks-msg > p{
+            font-family: smallRobotoFont;
+            text-align: justify-all;
+            margin-bottom: 25px;
+
+        }
+
+
+
+        @media only screen and (max-width: 900px) {
+  .content {
+    float: right;
+  }
+
+  .right-image{
+    float: left;
+  }
+}
+
+   
+        
